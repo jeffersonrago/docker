@@ -11,7 +11,7 @@ Ubuntu 18.04.1 LTS
 curl -fsSL https://get.docker.com/ | sh
 ```
 
-## Versão instalada
+## Consultando Versão Instalada
 
 ```
 docker --version
@@ -20,11 +20,11 @@ docker --version
 Resultado:
 Docker version 18.09.0, build 4d60db4
 
-## Adicionando usuário grupo DOCKER
+## Adicionando Usuário Grupo DOCKER
 
 ```
 sudo usermod -aG docker USER_NAME
 ```
-
+Com isso o usuário adicionado terá o mesmo privilégio do usuário ROOT em oprações relacionadas ao docker.
 
 
